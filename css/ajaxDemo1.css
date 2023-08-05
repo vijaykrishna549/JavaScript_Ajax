@@ -39,7 +39,7 @@ button{
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 50px 10px 10px;
+    margin: 10px 50px 10px 10px;
     flex-direction: column;
     align-content: space-between;
 }
