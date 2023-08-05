@@ -1,4 +1,6 @@
 function displayData() {
+  const btn = document.getElementById("btn");
+  // btn.style.display = "none";
   // Creating the XMLHttpRequest object
   var request = new XMLHttpRequest();
   // Instantiating the request object
@@ -34,14 +36,6 @@ function displayData() {
         `;
         })
         .join("");
-
-      // Inserting the response from server into an HTML element
-
-      // document.getElementById("ids").innerHTML = response.id;
-      // document.getElementById("brand").innerHTML = response.brand;
-      // document.getElementById("title").innerHTML = response.title;
-      // document.getElementById("catagory").innerHTML = response.rating;
-      // document.getElementById("price").innerHTML = response.price;
     }
   };
   // Sending the request to the server
